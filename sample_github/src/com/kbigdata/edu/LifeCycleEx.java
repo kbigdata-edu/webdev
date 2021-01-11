@@ -40,13 +40,11 @@ public class LifeCycleEx extends HttpServlet {
 
 	@PostConstruct
 	private void initPostConstruct() {
-		// TODO Auto-generated method stub
 		System.out.println("initPostConstruct");
 	}
 
 	@PreDestroy
 	private void destoryPreDestory() {
-		// TODO Auto-generated method stub
 		System.out.println("destoryPreDestory");
 	}
 
